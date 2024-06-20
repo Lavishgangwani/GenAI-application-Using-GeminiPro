@@ -8,7 +8,7 @@ import google.generativeai as genai
 load_dotenv()
 
 # Configure Google API key for Gemini API
-genai.configure(api_key='AIzaSyBMhv7qv7iztfJWuHq6yQTSqYLksaYGAjw')
+genai.configure(api_key=os.getenv('GOOGLE_API_KEY'))
 
 # Function to fetch response from Gemini API
 def get_gemini_response(question):
