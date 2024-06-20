@@ -1,0 +1,12 @@
+#requirements.txt
+
+streamlit
+google-generativeai
+python-dotenv
+
+
+#streamlit: for creating the web application.
+#langchain-core: for core LangChain functionalities including prompts and parsers.
+#langchain-community: for community-contributed components like the Ollama class.
+#langchain: the general LangChain library, although not directly referenced in your code, it's likely needed for the overall framework.
+#c_transformers: for working with transformer models, specifically CTransformers.
